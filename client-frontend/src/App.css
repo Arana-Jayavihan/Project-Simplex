@@ -1,0 +1,10 @@
+.App {
+    width: 100%;
+    line-height: 1.5;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Muli:400,400i,700,700i');
+body{
+  font-family: 'Muli', sans-serif;
+
+}

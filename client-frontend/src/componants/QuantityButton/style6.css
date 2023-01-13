@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,400i,700,700i');
+
+body {
+  margin: 0;
+  font-family: 'Muli', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.amount {
+    align-items: center;
+    background-color: #f0f2f9;
+    border-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    width: 120px;
+    margin-top: 5%;
+    margin-right: 3%;
+}
+
+.total {
+    align-items: center;
+    background-color: #f0f2f9;
+    border-radius: 7px;
+    display: flex;
+    padding: 15px;
+    width: 250px;
+    margin-top: 5%;
+    margin-right: 3%;
+}
+
+.minus,
+.plus {
+    display: flex;
+}
+
+.cart1 {
+    font-weight: bold;
+    font-size: 22px;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 20px 0 0;
+}
+
+
+button {
+    background-color: unset;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    outline: 0;
+}
+
+.amount p {
+    font-weight: 700;
+    margin: 0;
+}
+
+.bar {
+    margin: 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.price2 {
+    margin: 0;
+    font-weight: bold;
+    font-size: 16px;
+    margin-left: 20px;
+}

@@ -1,0 +1,10 @@
+.filterSection {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.verticalFilters {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15%;
+}
