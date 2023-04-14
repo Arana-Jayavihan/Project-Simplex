@@ -16,6 +16,7 @@ const storage = multer.diskStorage({
       cb(null, path.join(__dirName, 'uploads'))
     },
     filename: function (req, file, cb) {
+      console.log(file)
       cb(null, shID.generate() + '-' + slugify(file.originalname))
     }
 })
